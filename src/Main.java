@@ -80,6 +80,8 @@ class Man {
         this.friends.put(name, obj);
     }
 
+
+    //I've also added toString method to see the results of copying
     @Override
     public String toString() {
         StringBuilder friendsString = new StringBuilder();
